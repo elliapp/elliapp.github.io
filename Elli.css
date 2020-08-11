@@ -12,3 +12,19 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+#first-section {
+  height: 500px;
+}
+
+#second-section {
+  height: 500px;
+}
+
+#third-section {
+  height: 600px;
+}
+
+#fourth-section {
+  height: 500px;
+}
