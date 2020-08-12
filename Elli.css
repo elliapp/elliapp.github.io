@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -11,10 +13,56 @@ body {
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 #first-section {
-  height: 500px;
+  height: 560px;
+  padding: 5% 0;
+}
+
+.presentation {
+  position: relative;
+  top: 18%;
+  left: 12%;
+  width: 500px;
+}
+
+h4 {
+  font: normal normal normal 45px/1.4em Spinnaker, sans-serif;
+  font-size: 60px;
+  line-height: 0.8;
+}
+
+.font-h4 {
+  color: #060605;
+}
+
+.presentation h6 {
+  font-family: roboto-thin, roboto, sans-serif;
+  font-size: 24px;
+}
+
+.learn-more-button {
+  position: relative;
+  top: 42%;
+  left: 18%;
+  width: 404px;
+  height: 40px;
+  border: none;
+  background: #330d54;
+  text-align: center;
+}
+.learn-more-button a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.phone-icon {
+  position: absolute;
+  left: 58%;
+  top: 15%;
 }
 
 #second-section {
@@ -27,4 +75,12 @@ body {
 
 #fourth-section {
   height: 500px;
+}
+
+.color-1 {
+  color: #2b2b24;
+}
+
+.color-2 {
+  color: #6e6e67;
 }
