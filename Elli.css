@@ -3,17 +3,22 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: url(./assets/images/background.jpg);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(./assets/images/117647120_1141073212942832_8331470651794696417_n.jpg);
   overflow-x: auto;
   overflow-y: scroll;
   height: 100%;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* font-family: Arial, Helvetica, sans-serif; */
+  background-size: cover;
 }
 
 #first-section {
@@ -30,7 +35,7 @@ body {
 
 h4 {
   font: normal normal normal 45px/1.4em Spinnaker, sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 0.8;
 }
 
@@ -66,15 +71,90 @@ h4 {
 }
 
 #second-section {
-  height: 500px;
+  height: 650px;
+}
+
+.heart-icon {
+  position: relative;
+  height: 77px;
+  width: 77px;
+  margin-bottom: 10px;
+  border: 1px solid blue;
+  text-align: center;
+  background: #330d54;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.feature-box p {
+  color: #330d54;
+}
+
+.heart-icon i {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-size: 3rem;
 }
 
 #third-section {
-  height: 600px;
+  height: 400px;
+}
+
+.subscribtion {
+  position: relative;
+  top: 45%;
+  left: 13%;
+  width: 1050px;
+}
+
+.subscribtion .col {
+  height: 51px;
+  padding-left: 0;
+}
+
+.subscribtion .col input {
+  height: 100%;
+  padding-left: 24px;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: transparent;
+  border-style: solid;
+  text-align: left;
+  border-radius: 0;
+  color: #2b2b24;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.subscribtion .col input:hover {
+  background-color: white;
+}
+
+.subscribtion .col input:focus {
+  background-color: white;
+}
+
+.subscribtion button {
+  height: 100%;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.subscribtion button:hover {
+  background-color: black;
 }
 
 #fourth-section {
-  height: 500px;
+  height: 600px;
+}
+
+.team {
+  margin-top: 50px;
+  text-align: center;
 }
 
 .color-1 {
