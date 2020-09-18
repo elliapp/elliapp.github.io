@@ -33,6 +33,19 @@ body {
   width: 500px;
 }
 
+.presentation h4 {
+  font-size: 60px;
+  font-family: roboto-thin, roboto, sans-serif;
+}
+
+.presentation .elli-word {
+  font-weight: bold;
+  letter-spacing: 0em;
+}
+.presentation .is-word {
+  letter-spacing: 0em;
+}
+
 h4 {
   font: normal normal normal 45px/1.4em Spinnaker, sans-serif;
   font-size: 50px;
@@ -71,7 +84,16 @@ h4 {
 }
 
 #second-section {
+  background: white;
   height: 650px;
+}
+
+#second-section .first-row {
+  padding-top: 100px;
+}
+
+#second-section .second-row {
+  padding-top: 100px;
 }
 
 .heart-icon {
@@ -149,12 +171,54 @@ h4 {
 }
 
 #fourth-section {
+  background: white;
   height: 600px;
 }
 
-.team {
+.team-images {
   margin-top: 51px;
   text-align: center;
+}
+
+.team-presentation {
+  text-align: center;
+  padding: 0 50px 0 50px;
+}
+
+.team-presentation .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.team-presentation .first-paragraph {
+  margin: 16px 0 20px 0;
+}
+
+.team-presentation .second-paragraph {
+  margin: 16px 0 16px 0;
+}
+
+.footer {
+  margin-top: 40px;
+  height: 90px;
+  background: rgba(51, 13, 84, 1);
+}
+
+.footer .container {
+  text-align: center;
+}
+
+.facebook-icon {
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.LinkedIn-icon {
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 .color-1 {
