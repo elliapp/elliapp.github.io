@@ -7,15 +7,22 @@
 }
 
 body {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url(./assets/images/backgorund-image.jpg);
+ 
   overflow-x: auto;
   overflow-y: scroll;
   height: 100%;
   scroll-behavior: smooth;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main-container {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  url(./assets/images/backgorund-image.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -64,3 +71,124 @@ h1 {
     font-weight: 300;
     font-size: 64px;
 }
+
+/* 3rd and 4th sections by Hamza  */
+
+ #third-section {
+   position: relative;
+   width: 100% ;
+   height: 428px;
+   text-align: center;
+   border: 1px solid white; /* to be removed  */
+ }
+
+ #third-section h5 {
+  position: relative;
+  top: 33%;
+  text-align: center;
+  vertical-align: middle;
+  font-family:roboto-thin, roboto, sans-serif;
+  font-size: 24px;
+  letter-spacing: normal;
+  /* font-weight: 700; */
+  /* line-height: 0.8; */
+  /* font: normal normal 700 18px/1.4em ; */  
+ }
+
+ .subscribtion {
+   display: inline-flex;
+   position: absolute;
+   height: 13%;
+   top: 50%;
+   left: 50%;
+   justify-content: center;
+   align-items: center;
+   margin-right: -50%;
+   transform: translate(-50%, -50%) ;
+ }
+
+.subscribtion form { height: 100%;}
+
+.subscribtion form input {
+  height: 100%;
+  width: 252px;
+  margin-left: 5px;
+  padding-left: 24px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 200;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0;
+  border-color: transparent;
+  color: #2b2b24;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.subscribtion form input:hover { background-color: white; }
+
+.subscribtion form input:focus {
+  background-color: white;
+  border: 1px solid transparent ;
+}
+
+.subscribtion form .submit-button {
+  height: 100%;
+  margin: 1px ;
+  padding: 2px 70px 0 70px ;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(55, 59, 77, 0.7);
+}
+
+.subscribtion button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* Big tablets  */
+@media only screen and ( max-width : 1200px ) {
+  .subscribtion form input { width: 252px;}
+}
+
+/* Small tablets */
+@media only screen and ( max-width : 1023px ) {
+  .subscribtion form input { width: 150px;}
+  .subscribtion form .submit-button {
+    padding: 2px 60px 0 60px ;
+  }
+
+}
+
+/* Small phones to small tablets */
+@media only screen and ( max-width : 767px ) {
+  .subscribtion form input { width: 100px;}
+}
+
+/* Small phones  */
+@media only screen and ( max-width : 520px ) {
+  .subscribtion form  { display: inline-table;}
+  .subscribtion form input {
+    width: 90px;
+    padding-left: 5px;
+  }
+  .subscribtion form .submit-button  {
+    padding: 0 8px 0 8px ;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
