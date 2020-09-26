@@ -76,7 +76,6 @@ h1 {
 #third-section {
   height: 500px;
   border: 1px solid blue ;   /* to be removed  */
-
 }
 
 #third-section h5 {
@@ -87,8 +86,24 @@ h1 {
   line-height: 0.8;
 }
 
+.subscribtion form input {  
+  text-align: left;
+  font-size: 16px;
+  font-weight: 200;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0;
+  border-color: transparent;
+  color: #2b2b24;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 .subscribtion form input:hover { background-color: white; }
+
+.subscribtion form .submit-button {
+  color: white;
+  background-color: rgba(55, 59, 77, 0.7); 
+}
 
 .subscribtion .submit-button:hover {
   background-color: black;
@@ -102,7 +117,7 @@ h1 {
 /* Small phones  */
 @media only screen and ( max-width : 520px ) {
 
- #third-section > h5 {
+  #third-section > h5 {
    top: 15%;
    position: relative;
    font-size: 20px;
@@ -110,36 +125,25 @@ h1 {
    font-weight: 500;
   }
 
- .subscribtion  {
+  .subscribtion  {
    position: relative;
    top: 25%;
    width: 80%;
    margin-left: 10%;
   }
 
- .subscribtion form { display: grid; }
+  .subscribtion form { display: grid; }
 
- .subscribtion form input {    
+  .subscribtion form input {    
    margin-bottom: 15px;
    padding: 20px 0 20px 24px;
-   text-align: left;
-   font-size: 16px;
-   font-weight: 200;
-   border-style: solid;
-   border-width: 1px;
-   border-radius: 0;
-   border-color: transparent;
-   color: #2b2b24;
-   background-color: rgba(255, 255, 255, 0.5);
   }
 
- #email { margin-bottom: 26px; }
+  #email { margin-bottom: 26px; }
 
- .subscribtion form .submit-button {
+  .subscribtion form .submit-button {
    padding: 10px;
    font-size: 20px;
-   color: white;
-   background-color: rgba(55, 59, 77, 0.7); 
   } 
 
 }
