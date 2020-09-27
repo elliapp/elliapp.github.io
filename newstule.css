@@ -71,11 +71,10 @@ h1 {
     font-size: 64px;
 }
 
-/* 3rd and 4th sections by Hamza  */
+/* 3rd sections  */
 
 #third-section {
   height: 500px;
-  border: 1px solid blue ;   /* to be removed  */
 }
 
 #third-section h5 {
@@ -115,6 +114,18 @@ h1 {
   color: white;
 } 
 
+ /* 4th section  */
+
+#fourth-section > .main-container {
+  background: white;
+  text-align: center;
+}
+
+.zero-width-space {
+  font-size: 18px;
+  text-align: center   
+}
+
 
 /* Responsivity  */
 
@@ -148,9 +159,33 @@ h1 {
   #email { margin-bottom: 26px; }
 
   .subscribtion form .submit-button {
-   padding: 10px;
-   font-size: 20px;
+    padding: 10px;
+    font-size: 20px;
   } 
+                            /* 4th section  */
+                         
+  .image-container { padding: 40px 0 20px 0; }
+
+  .image-container > img {
+   height: 100px;
+   width: 400px;
+  }
+
+  .texts-container {
+    margin: 0 15px 0 15px ;
+  }
+
+  .texts-container p {
+    /* fonts attributes style to be added  */
+  }
+  
+  .texts-container .title {
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: center;
+   font-weight: bold;
+   font-size: 18px;
+  }
 
 }
 
