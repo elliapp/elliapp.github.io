@@ -114,7 +114,7 @@ h4 {
 }
 /* End features section */
 
-/* 3rd and 4th sections by Hamza  */
+                                /* 3rd section  */
 
 #third-section {
   height: 500px;
@@ -157,7 +157,7 @@ h4 {
   color: white;
 } 
 
- /* 4th section  */
+                                    /* 4th section  */
 
 #fourth-section > .main-container {
   background: white;
@@ -168,7 +168,20 @@ h4 {
   font-size: 18px;
   text-align: center   
 }
+                                      /* footer  */
+footer {
+  display:flex;
+  height: 80px;
+  background: rgba(51, 13, 84, 1)
+}
 
+.icons-container {
+  margin:auto;
+}
+
+.icons-container img {
+  width: 40%;
+}
 
 /* Responsivity  */
 
