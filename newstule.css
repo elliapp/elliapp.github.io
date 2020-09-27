@@ -86,6 +86,11 @@ h1 {
   line-height: 0.8;
 }
 
+.subscribtion {
+  display: flex;
+  justify-content: center;
+}
+
 .subscribtion form input {  
   text-align: left;
   font-size: 16px;
@@ -114,8 +119,8 @@ h1 {
 /* Responsivity  */
 
 
-/* Small phones  */
-@media only screen and ( max-width : 520px ) {
+/* Small phones to small tablets */
+@media only screen and ( max-width : 630px ) {
 
   #third-section > h5 {
    top: 15%;
@@ -130,6 +135,7 @@ h1 {
    top: 25%;
    width: 80%;
    margin-left: 10%;
+   display: block;
   }
 
   .subscribtion form { display: grid; }
@@ -148,11 +154,40 @@ h1 {
 
 }
 
+/* Small phones to small tablets */
+
+@media only screen  and ( min-width : 631px) and ( max-width : 767px ) { 
+
+  #third-section { 
+    height: 300px; 
+    text-align: center;
+  }
 
 
+  #third-section > h5 {
+    position: relative;
+    top: 35%;
+    font-size: 1.5rem;
+  }
 
+  .subscribtion { 
+    position: relative;
+    top: 50%;
+  }
+  
+  .subscribtion form { display: flex ; }
 
+  .subscribtion form input {    
+    padding:  10px 0 10px 10px;
+    font-size: 15px;
+    margin-right: 10px;
+  }
 
+  .subscribtion form .submit-button {
+    padding: 15px 30px 15px 30px ;
+  }
+
+}
 
 
 
