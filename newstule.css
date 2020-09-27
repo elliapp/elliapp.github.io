@@ -71,6 +71,49 @@ h1 {
     font-size: 64px;
 }
 
+h4 {
+  color: #340F54;
+  margin-bottom: 12px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+/* Features section */
+.features-container {
+  background-color: white;
+  padding-top: 120px;
+  margin-top: -80px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.features-column-left {
+  text-align: center;
+  height: 160px;
+  margin: 24px 86px 42px auto;
+  width: 400px;
+}
+
+.features-column-right {
+  text-align: center;
+  height: 160px;
+  margin: 24px auto 42px 86px;
+  width: 400px;
+}
+/* End features section */
+
 /* 3rd and 4th sections by Hamza  */
 
 #third-section {
