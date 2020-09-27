@@ -164,6 +164,27 @@ h4 {
   text-align: center;
 }
 
+.image-container { 
+  padding: 40px 0 20px 0;
+  margin: 0 15px 0 15px ; 
+}
+
+.image-container > img {
+  width: 100%;
+ }
+
+ .texts-container {
+  margin: 0 15px 0 15px ;
+}
+
+.texts-container .title {
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+ }
+ 
 .zero-width-space {
   font-size: 18px;
   text-align: center   
@@ -219,21 +240,10 @@ footer {
     font-size: 20px;
   } 
                             /* 4th section  */
-                         
-  .image-container { padding: 40px 0 20px 0; }
-
-  .image-container > img {
-   height: 100px;
-   width: 400px;
-  }
-
-  .texts-container {
-    margin: 0 15px 0 15px ;
-  }
-
-  .texts-container p {
-    /* fonts attributes style to be added  */
-  }
+    
+  /*.texts-container p {
+     fonts attributes style to be added  
+  }*/
   
   .texts-container .title {
    line-height: normal;
@@ -276,6 +286,17 @@ footer {
 
   .subscribtion form .submit-button {
     padding: 15px 30px 15px 30px ;
+  }
+
+  .image-container { padding: 40px 0 20px 0; }
+
+  .image-container > img {
+   height: 100px;
+   width: 400px;
+  }
+
+  .texts-container {
+    margin: 0 15px 0 15px ;
   }
 
 }
