@@ -164,17 +164,19 @@ h4 {
   text-align: center;
 }
 
-.image-container { 
-  padding: 40px 0 20px 0;
-  margin: 0 15px 0 15px ; 
-}
-
-.image-container > img {
-  width: 100%;
+.c-members {
+  display: inline-flex;
  }
+
+.member img {
+  border-radius: 100px;
+  padding: 10px;
+  width: 9rem;
+}
 
  .texts-container {
   margin: 0 15px 0 15px ;
+  padding: 20px 0 20px 0 ;
 }
 
 .texts-container .title {
@@ -241,10 +243,8 @@ footer {
   } 
                             /* 4th section  */
     
-  /*.texts-container p {
-     fonts attributes style to be added  
-  }*/
-  
+  .first-row { padding: 20px 0 20px 0;}
+
   .texts-container .title {
    line-height: normal;
    letter-spacing: normal;
@@ -260,7 +260,6 @@ footer {
 @media only screen  and ( min-width : 631px) and ( max-width : 767px ) { 
 
   #third-section { 
-    height: 300px; 
     text-align: center;
   }
 
@@ -288,12 +287,13 @@ footer {
     padding: 15px 30px 15px 30px ;
   }
 
-  .image-container { padding: 40px 0 20px 0; }
+ .first-row {
+   margin: 30px;
+ }
 
-  .image-container > img {
-   height: 100px;
-   width: 400px;
-  }
+ .member {
+   padding: 10px;
+ }
 
   .texts-container {
     margin: 0 15px 0 15px ;
