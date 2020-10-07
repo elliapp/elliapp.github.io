@@ -332,6 +332,46 @@ footer {
 
 }
 
+/* Big Tablets  */
+
+@media only screen and (min-width : 1024px ) and ( max-width : 1200px ) {
+ 
+  .subscribtion form input {    
+    padding: 15px 20px 15px 20px;
+    font-size: 1.2em;
+    margin-right: 25px;
+  }
+
+  .subscribtion form .submit-button {
+    padding: 15px 60px 15px 60px;
+    font-size: 1.2em;
+  }
+
+  .member {
+    padding: 0 20px 0 20px;
+  }
+
+  .member img {
+    width: 12rem ;
+  }
+
+  .member > p {
+     font-size: 1.3em;
+  }
+
+  .member > h5 {
+    font-size: 1.1em;
+  }
+
+  .texts-container .title {
+    font-size: 20px;
+  }
+
+  .texts-container > p {
+    font-size: 1.2em;
+  }
+
+}
 
 
 
