@@ -373,6 +373,52 @@ footer {
 
 }
 
+@media only screen and (min-width : 1201px ) {
 
+  #third-section {
+    height: 425px;
+  }
+
+  .subscribtion {
+    top:40%;
+  }
+
+  .subscribtion form input {    
+    margin-right: 5px;
+    padding: 3px;
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 1.4em;
+    width: 252px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 200;
+    padding-left: 24px;   
+    margin-right: 5px;
+  }
+  
+  .subscribtion form .submit-button {
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 1.4em;
+  }
+
+  .texts-container {
+    width: 980px;
+    margin: 0px 0px 0px calc((100% - 980px) * 0.5);
+   font-size: 18px;
+  }
+
+  .member {
+    padding: 0 40px 0 40px;
+  }
+
+  .member img {
+    width: 10rem ;
+  }
+
+}
 
 
