@@ -148,6 +148,7 @@ h4 {
   border-color: transparent;
   color: #2b2b24;
   background-color: rgba(255, 255, 255, 0.5);
+  margin-right: 5px;
 }
 
 .subscribtion form input:hover { background-color: white; }
@@ -241,6 +242,7 @@ footer {
 
   .subscribtion form input {    
    margin-bottom: 15px;
+   margin-right: 0;
    padding: 20px 0 20px 24px;
   }
 
@@ -284,7 +286,6 @@ footer {
   .subscribtion form input {    
     padding:  10px 0 10px 10px;
     font-size: 15px;
-    margin-right: 10px;
   }
 
   .subscribtion form .submit-button {
@@ -311,7 +312,6 @@ footer {
   .subscribtion form input {    
     padding: 5px 0 5px 10px;
     font-size: 18px;
-    margin-right: 10px;
   }
 
   .subscribtion form .submit-button {
@@ -339,7 +339,7 @@ footer {
   .subscribtion form input {    
     padding: 15px 20px 15px 20px;
     font-size: 1.2em;
-    margin-right: 25px;
+  
   }
 
   .subscribtion form .submit-button {
@@ -384,7 +384,6 @@ footer {
   }
 
   .subscribtion form input {    
-    margin-right: 5px;
     padding: 3px;
     padding-left: 24px;
     font-size: 16px;
@@ -394,9 +393,8 @@ footer {
     font-size: 16px;
     font-weight: 200;
     padding-left: 24px;   
-    margin-right: 5px;
   }
-  
+
   .subscribtion form .submit-button {
     padding-left: 70px;
     padding-right: 70px;
