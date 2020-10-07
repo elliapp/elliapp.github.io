@@ -121,6 +121,9 @@ h4 {
 }
 
 #third-section h5 {
+  position: relative;
+  top: 35%;
+  font-size: 1.5rem;
   text-align: center;
   font-family:roboto-thin, roboto, sans-serif;
   letter-spacing: normal; 
@@ -131,6 +134,8 @@ h4 {
 .subscribtion {
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 50%;
 }
 
 .subscribtion form input {  
@@ -273,12 +278,7 @@ footer {
     top: 35%;
     font-size: 1.5rem;
   }
-
-  .subscribtion { 
-    position: relative;
-    top: 50%;
-  }
-  
+ 
   .subscribtion form { display: flex ; }
 
   .subscribtion form input {    
@@ -304,9 +304,31 @@ footer {
 /* Small tablets */
 @media only screen and (min-width :768px) and ( max-width : 1023px ) {
 
-  
+  /* 3rd section  */
 
+  .subscribtion form { display: flex ; }
 
+  .subscribtion form input {    
+    padding: 5px 0 5px 10px;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .subscribtion form .submit-button {
+    padding: 15px 30px 15px 30px ;
+    font-size: 16px ;
+  }
+
+ /* 4th Section  */
+
+ .member {
+   padding: 1em ;
+   
+ }
+
+ .member p {
+  font-size: 20px;
+ }
 
 }
 
