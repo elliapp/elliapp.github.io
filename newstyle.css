@@ -88,41 +88,23 @@ p {
   text-decoration: none;
 }
 
-/* Features section */
 .features-container {
-  background-color: white;
-  padding-top: 120px;
-  margin-top: -80px;
-}
-
-.row {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
-.features-column-left {
   text-align: center;
-  height: 160px;
-  margin: 24px 86px 42px auto;
-  width: 400px;
+  background: #fff;
+  padding: 40px;
 }
 
-.features-column-right {
-  text-align: center;
-  height: 160px;
-  margin: 24px auto 42px 86px;
-  width: 400px;
+.feature-left {
+  flex: 50%;
+  padding: 20px 0;
 }
-/* End features section */
+
+.feature-right {
+  flex: 50%;
+  padding: 20px 0;
+}
 
 .subscription {
   height: 500px;
