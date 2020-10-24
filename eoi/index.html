@@ -12,50 +12,56 @@
   </head>
   <body>
     <div class="main-container">
-      <form>
+      <form
+          action="https://elliapp.us3.list-manage.com/subscribe/post?u=55eff7fd86ec88925f500159e&amp;id=6bf536012e"
+          method="post"
+          target="_blank">
         <h1 class="st-color">Expression of Interest - Focus Group</h1>
 
         <div class="credentials">
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Last Name" />
-          <input type="text" placeholder="Email" />
+          <input type="text" name="FNAME" placeholder="First Name" />
+          <input type="text" name="LNAME" placeholder="Last Name" />
+          <input type="text" name="EMAIL" placeholder="Email" />
         </div>
 
         <div class="questions">
           <div>
             <p>Are you over 18 years old?</p>
             <span>
-              <input type="radio" />
-              <label for="">Yes</label>
+              <input type="radio" name="OVER18" id="over18yes" value="Yes" />
+              <label for="over18yes">Yes</label>
             </span>
             <span>
-              <input type="radio" />
-              <label for="">No</label>
+              <input type="radio" name="OVER18" id="over18no" value="No" />
+              <label for="over18no">No</label>
             </span>
           </div>
 
           <div>
             <p>Are you caring for someone living with dementia?</p>
             <span>
-              <input type="radio" />
-              <label for="">Yes, currently</label>
+              <input type="radio" name="caring" id="caringYes" value="Yes" />
+              <label for="caringYes">Yes, currently</label>
             </span>
             <span>
-              <input type="radio" />
-              <label for="">Yes, in the past</label>
+              <input type="radio" name="caring" id="caringPast" value="Past" />
+              <label for="caringPast">Yes, in the past</label>
             </span>
             <span>
-              <input type="radio" />
-              <label for="">Not at the moment</label>
+              <input type="radio" name="caring" id="caringNo" value="No" />
+              <label for="caringNo">Not at the moment</label>
             </span>
           </div>
 
           <div>
-            <label for="">Why would you like be part of our focus group?</label>
-            <input type="text" />
+            <label>Why would you like be part of our focus group?</label>
+            <input type="text" name="WHY" />
           </div>
         </div>
-        <button>Register my Interests</button>
+
+        <input type="hidden" name="focusgroup" value="Yes" />
+
+        <button type="submit">Register my Interests</button>
       </form>
     </div>
   </body>
