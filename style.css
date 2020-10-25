@@ -93,6 +93,10 @@ main {
   max-width: 30rem;
 }
 
+.hero-left > h1 > div {
+  font-size: 3rem
+}
+
 .hero-left > p {
   font-size: 1.5rem;
   color: #6e6e67;
@@ -227,6 +231,12 @@ main {
   border-radius: 50%;
   padding: 0.6rem;
   width: 9rem;
+}
+
+@media screen and (min-width: 1023px) {
+  .texts {
+    padding: 2rem 12rem;
+  }
 }
 
 footer {
