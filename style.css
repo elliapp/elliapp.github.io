@@ -87,7 +87,7 @@ main {
   align-items: center;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 863px) {
   .hero {
     text-align: center;
   }
