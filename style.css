@@ -100,21 +100,17 @@ img {
   }
 }
 
-.hero > .hero-left {
-  max-width: 32rem;
-}
-
-.hero > .hero-left > h1 > span {
-  font-weight: 400;
+.hero > .left > h1 > span {
+  font-weight: 500;
   color: var(--primary-color);
 }
 
-.hero > .hero-left > p {
+.hero > .left > p {
   font-size: 1.5rem;
   color: #6e6e67;
 }
 
-.hero > .hero-left > a {
+.hero > .left > a {
   display: block;
   width: 20rem;
   background: #330d54;
@@ -129,7 +125,7 @@ img {
   padding: 0.6rem 2rem;
 }
 
-.hero > .hero-left > a::after {
+.hero > .left > a::after {
   display: inline-block;
   content: "›";
   color: white;
@@ -137,11 +133,11 @@ img {
   margin-left: 1rem;
 }
 
-.hero > .app-preview {
+.hero > .right {
   margin-bottom: -5rem;
 }
 
-.hero > .app-preview > img {
+.hero > .right > img {
   width: 24rem;
 }
 
@@ -171,18 +167,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.subscription > h5 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-@media screen and (max-width: 630px) {
-  .subscription > h5 {
-    font-size: 1.2rem;
-  }
 }
 
 .subscription > form {
