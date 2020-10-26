@@ -1,9 +1,14 @@
+:root {
+  --primary-color: #340f54;
+}
+
 * {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
+  color: rgb(43, 43, 36);
   box-sizing: border-box;
 }
 
@@ -18,10 +23,22 @@ body {
   scroll-behavior: smooth;
 }
 
+main {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(./assets/images/backgorund-image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
 h1 {
   font-size: 4rem;
-  font-weight: 300;
-  margin-top: 4rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 630px) {
@@ -30,17 +47,20 @@ h1 {
   }
 }
 
-h3 {
-  color: #340f54;
+h2 {
+  color: var(--primary-color);
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
-h4 {
-  color: #340f54;
-  margin-bottom: 12px;
-  font-weight: 400;
+h3 {
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 p {
@@ -51,7 +71,7 @@ p {
 }
 
 img {
-  max-width: 90%;
+  max-width: 90vw;
 }
 
 .container {
@@ -68,82 +88,61 @@ img {
   background: white;
 }
 
-main {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url(./assets/images/backgorund-image.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-}
-
 .hero {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
+  text-align: left;
+  padding-top: 8rem;
 }
 
-@media screen and (max-width: 863px) {
+@media screen and (max-width: 968px) {
   .hero {
     text-align: center;
   }
 }
 
-.hero-left {
+.hero > .hero-left {
   max-width: 32rem;
 }
 
-/* .hero-left > h1 > div {
-  font-size: 3rem
-} */
+.hero > .hero-left > h1 > span {
+  font-weight: 400;
+  color: var(--primary-color);
+}
 
-.hero-left > p {
+.hero > .hero-left > p {
   font-size: 1.5rem;
   color: #6e6e67;
 }
 
-.app-preview {
-  margin-top: 8rem;
-  margin-bottom: -4rem;
-  text-align: center;
-}
-
-.hero-left h1 span {
-  font-family: "Roboto";
-  font-weight: 400;
-  letter-spacing: 0;
-}
-
-.hero-left > h1 > div {
-  font-weight: 300;
-}
-
-.hero-left > p {
-  font-weight: 100;
-}
-
-.learn-more-button {
+.hero > .hero-left > a {
   display: block;
   width: 20rem;
   background: #330d54;
   color: white;
+  font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
   margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
   border: none;
   padding: 0.6rem 2rem;
 }
 
-.learn-more-button::after {
+.hero > .hero-left > a::after {
   display: inline-block;
   content: "›";
   color: white;
   transform: rotate(90deg);
   margin-left: 1rem;
+}
+
+.hero > .app-preview {
+  margin-bottom: -5rem;
+}
+
+.hero > .app-preview > img {
+  width: 24rem;
 }
 
 .features {
@@ -167,7 +166,7 @@ main {
 }
 
 .subscription {
-  height: 500px;
+  height: 24rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,20 +175,13 @@ main {
 
 .subscription > h5 {
   font-size: 1.5rem;
-  text-align: center;
-  font-family: roboto-thin, roboto, sans-serif;
-  letter-spacing: normal;
-  font-weight: 700;
-  line-height: 0.8;
-  margin-bottom: 5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 630px) {
   .subscription > h5 {
-    font-size: 20px;
-    line-height: 0.8;
-    box-sizing: border-box;
-    font-weight: 500;
+    font-size: 1.2rem;
   }
 }
 
