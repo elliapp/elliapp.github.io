@@ -1,3 +1,5 @@
-# elliapp.github.io
+# elli is peace-of-mind
 
-Peace of mind for the caregivers of those living with dementia .
+A remote-care app for those living with dementia.
+
+This is the company's landing page, created from scratch in HTML + CSS and hosted on Github pages.
